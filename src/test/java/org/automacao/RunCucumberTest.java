@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/Features"},
         glue = {"org/automacao"},
         plugin = {"pretty", "summary", "html:target/CucumberReport.html"},
-        tags = "@encontrar-lojas-que-vendem-lentes",
+        tags = "",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         monochrome = true)
 
